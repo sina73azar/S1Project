@@ -49,10 +49,19 @@ fun main() {
     val array2=Array(10){i->"ali$i"}
     println(array2[5])
     println(array1[4])
-
+    val array3=Array(8){"sina$it"}
+    conditionStatement()
 }
 fun get3DigitNum() {
     println("Enter 3 digit number: ")
     var inputNum = readLine()
     println(inputNum!!.toInt()>200 && inputNum!!.toInt()<500)
+}
+fun conditionStatement() {
+    var userPoint = readLine()!!.toInt()
+    if (userPoint >= 70) {
+        println("pass")
+    } else {
+        println("fail")
+    }
 }
