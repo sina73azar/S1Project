@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d1c34c9c-9c14-4b2a-b0c1-d754a308b01a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/S1Project/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/S1Project/MainKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -13,8 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -30,8 +30,21 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="61" column="26" lean-forward="true" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+            <state relative-caret-position="259">
+              <caret line="219" lean-forward="true" selection-start-line="219" selection-end-line="219" />
+              <folding>
+                <element signature="n#!!block;n#starter#0" />
+                <element signature="n#!!block;n#get3DigitNum#0" />
+                <element signature="n#!!block;n#conditionStatement#0" />
+                <element signature="n#!!block;n#arrayBuild#0" />
+                <element signature="n#!!block;n#kotlinIfAdvantage#0" />
+                <element signature="n#!!block;n#testOfWhen#0" />
+                <element signature="n#!!block;n#testOfWhen2#0" />
+                <element signature="n#!!block;n#forTest#0" />
+                <element signature="n#!!block;n#conAndBreakSample#0" />
+                <element signature="n#!!block;n#starPrint#0" />
+                <element signature="n#!!block;n#fibonatci#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,7 +117,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -149,6 +162,14 @@
       <option name="presentableId" value="Default" />
       <updated>1602596776413</updated>
     </task>
+    <task id="LOCAL-00001" summary="conditionStatement Added">
+      <created>1602682766456</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602682766456</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -162,9 +183,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16263238" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.16263238" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -173,14 +193,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.8639456" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39965987" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32993197" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.25340137" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.25340137" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32993197" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32993197" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32993197" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -192,6 +212,10 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="conditionStatement Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="conditionStatement Added" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/MainClass.kt">
       <provider selected="true" editor-type-id="text-editor">
@@ -202,8 +226,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="61" column="26" lean-forward="true" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+        <state relative-caret-position="259">
+          <caret line="219" lean-forward="true" selection-start-line="219" selection-end-line="219" />
+          <folding>
+            <element signature="n#!!block;n#starter#0" />
+            <element signature="n#!!block;n#get3DigitNum#0" />
+            <element signature="n#!!block;n#conditionStatement#0" />
+            <element signature="n#!!block;n#arrayBuild#0" />
+            <element signature="n#!!block;n#kotlinIfAdvantage#0" />
+            <element signature="n#!!block;n#testOfWhen#0" />
+            <element signature="n#!!block;n#testOfWhen2#0" />
+            <element signature="n#!!block;n#forTest#0" />
+            <element signature="n#!!block;n#conAndBreakSample#0" />
+            <element signature="n#!!block;n#starPrint#0" />
+            <element signature="n#!!block;n#fibonatci#0" />
+          </folding>
         </state>
       </provider>
     </entry>
