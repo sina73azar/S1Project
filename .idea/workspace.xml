@@ -5,16 +5,29 @@
       <artifact name="S1Project:jar" />
     </artifacts-to-build>
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d1c34c9c-9c14-4b2a-b0c1-d754a308b01a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/S1Project_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TamrinHa.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/S1Project/META-INF/S1Project.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/S1Project/META-INF/S1Project.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/S1Project/MainClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/S1Project/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/S1Project/MainKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainClass.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +61,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.PrimeNumsKt">
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="S1Project" />
       <option name="VM_PARAMETERS" />
@@ -62,8 +75,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrimeNumsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="S1Project" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="PrimeNumsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.PrimeNumsKt" />
         <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
@@ -94,55 +121,90 @@
       <option name="project" value="LOCAL" />
       <updated>1602724960143</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL‎۰۰۰۰۳" summary="30 Mehr added">
+      <created>1603298072520</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۳" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۳" />
+      <updated>1603298072520</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="conditionStatement Added" />
     <MESSAGE value="22 mehr added" />
-    <option name="LAST_COMMIT_MESSAGE" value="22 mehr added" />
+    <MESSAGE value="30 Mehr added" />
+    <option name="LAST_COMMIT_MESSAGE" value="30 Mehr added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="4" key="#Plugins" timestamp="1602896122971">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="4" key="#Plugins/0.0.1366.728@0.0.1366.728" timestamp="1602896122971" />
-    <state width="1323" height="148" key="GridCell.Tab.0.bottom" timestamp="1603297998978">
+    <state x="310" y="0" key="CommitChangelistDialog2" timestamp="1603298071078">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603297998978" />
-    <state width="1323" height="148" key="GridCell.Tab.0.center" timestamp="1603297998978">
+    <state x="310" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1603298071078" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1603298587138">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603297998978" />
-    <state width="1323" height="148" key="GridCell.Tab.0.left" timestamp="1603297998978">
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1603298587138" />
+    <state width="1323" height="148" key="GridCell.Tab.0.bottom" timestamp="1603313142740">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603297998978" />
-    <state width="1323" height="148" key="GridCell.Tab.0.right" timestamp="1603297998978">
+    <state width="1323" height="148" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603313142740" />
+    <state width="1323" height="148" key="GridCell.Tab.0.center" timestamp="1603313142740">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603297998978" />
-    <state width="1323" height="213" key="GridCell.Tab.1.bottom" timestamp="1603146694299">
+    <state width="1323" height="148" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603313142740" />
+    <state width="1323" height="148" key="GridCell.Tab.0.left" timestamp="1603313142740">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="213" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603146694299" />
-    <state width="1323" height="213" key="GridCell.Tab.1.center" timestamp="1603146694297">
+    <state width="1323" height="148" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603313142740" />
+    <state width="1323" height="148" key="GridCell.Tab.0.right" timestamp="1603313142740">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="213" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1603146694297" />
-    <state width="1323" height="213" key="GridCell.Tab.1.left" timestamp="1603146694295">
+    <state width="1323" height="148" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603313142740" />
+    <state width="1323" height="213" key="GridCell.Tab.1.bottom" timestamp="1603312701625">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="213" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1603146694295" />
-    <state width="1323" height="213" key="GridCell.Tab.1.right" timestamp="1603146694298">
+    <state width="1323" height="213" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603312701625" />
+    <state width="1323" height="213" key="GridCell.Tab.1.center" timestamp="1603312701624">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="213" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1603146694298" />
+    <state width="1323" height="213" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1603312701624" />
+    <state width="1323" height="213" key="GridCell.Tab.1.left" timestamp="1603312701624">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="213" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1603312701624" />
+    <state width="1323" height="213" key="GridCell.Tab.1.right" timestamp="1603312701625">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="213" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1603312701625" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1603298086536">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603298086536" />
     <state x="194" y="98" width="977" height="630" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1602927952155">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="194" y="98" width="977" height="630" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1602927952155" />
+    <state x="483" y="265" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603298416855">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="483" y="265" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603298416855" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
