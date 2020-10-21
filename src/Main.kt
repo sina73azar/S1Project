@@ -1,12 +1,22 @@
 fun main() {
+
     var a = 0
     while (a < 5) {
 
+        //classCodeQuera()
         //starPrint()
+        //println("Enter number :")
+        //val input= readLine()!!.toInt()
+        //println(recursiveFun(input))
+        //calc()
         ++a
-    }
-    //fibonatci()
 
+    }
+    println(
+            computeStringLength("ali", "mamad"))
+    //fibonatci()
+    //fibonatciFillArray()
+    //multiDimArray()
 }
 
 fun starter() {
@@ -58,7 +68,7 @@ fun starter() {
 fun get3DigitNum() {
     println("Enter 3 digit number: ")
     var inputNum = readLine()
-    println(inputNum!!.toInt() > 200 && inputNum!!.toInt() < 500)
+    println(inputNum!!.toInt() > 200 && inputNum.toInt() < 500)
 }
 
 fun conditionStatement() {
@@ -171,7 +181,7 @@ fun forTest() {
 }
 
 fun conAndBreakSample() {
-    var i=0
+    var i = 0
     while (i < 100) {
         i++
         if (i % 5 == 0) continue
@@ -185,7 +195,7 @@ fun conAndBreakSample() {
 
 fun starPrint() {
     println("Enter number of Star rows:")
-    val rows= readLine()!!.toInt()
+    val rows = readLine()!!.toInt()
     for (i in 1..rows) {
         for (j in 1..i) {
             print("*")
@@ -193,27 +203,94 @@ fun starPrint() {
         print("\n")
     }
 }
+
 //Question:how can we fill an empty array?
 fun fibonatci() {
+    //this function not using array for fibonatci
     println("Enter count of numbers of fibonatci you need?")
-    val arraySize = readLine()!!.toInt()
-    var fn=0
-    var fnPlus=1
-    var fnPlusPlus:Int
+    val countFib = readLine()!!.toInt()
+    var fn = 0
+    var fnPlus = 1
+    var fnPlusPlus: Int
     print("$fn\t\t")
     print("$fnPlus\t\t")
-    for (i in 1..arraySize-2) {
-        fnPlusPlus=fn+fnPlus
+    for (i in 1..countFib - 2) {
+        fnPlusPlus = fn + fnPlus
         print("$fnPlusPlus\t\t")
-        if(i==8) println("")
+        if (i == 8) println("")
         if (i > 18) {
 
-            if(i%10==0) println("")
+            if (i % 10 == 0) println("")
         }
-        fn=fnPlus
-        fnPlus=fnPlusPlus
+        fn = fnPlus
+        fnPlus = fnPlusPlus
     }
 
 
 }
 
+fun fibonatciFillArray() {
+    println("Enter count of numbers of fibonatci you need?")
+    val arraySize = readLine()!!.toInt()
+    var arrayFib = Array(arraySize) { it }
+    arrayFib[0] = 0
+    arrayFib[1] = 1
+    for (a in 2 until arraySize) {
+        arrayFib[a] = arrayFib[a - 1] + arrayFib[a - 2]
+    }
+    for (a in arrayFib)
+        println(a)
+}
+
+fun classCodeQuera() {
+    for (i in 1..100) {
+        print(i)
+    }
+    println("Enter Index you want")
+    val k = readLine()!!.toInt()
+    var d: String
+    when {
+        k < 10 -> println(k)
+        k < 100 && k % 2 == 0 -> println((10 + ((k - 10) / 2)).toString()[0])
+        k < 100 && k % 2 == 1 -> println((10 + ((k - 11) / 2)).toString()[1])
+
+    }
+
+
+}
+
+fun multiDimArray() {
+    var multiDimArray = arrayOf(
+            intArrayOf(5, 4, 98), intArrayOf(2, 32, 36, 45, 74), intArrayOf(8)
+    )
+    for (num in multiDimArray) {
+        println(num)
+        for (num2 in num) {
+            println(num2)
+        }
+    }
+}
+fun calc() {
+    var c:Double=0.0
+    print("A= ")
+    val a= readLine()!!.toDouble()
+    print("B= ")
+    val b= readLine()!!.toDouble()
+    print("Enter the operator:(+,-,*,/)")
+    val operator= readLine()
+    when (operator) {
+        "+" ->c=a+b
+        "-" ->c=a-b
+        "*" ->c=a*b
+        "/" ->c=a/b
+    }
+    println(c)
+
+}
+fun recursiveFun(num: Int): Long {
+    return if(num==1) 1 else num * recursiveFun(num - 1)
+}
+fun computeStringLength(str1: String, str2: String): Int {
+    val sum = str1.length + str2.length
+    return sum
+}
