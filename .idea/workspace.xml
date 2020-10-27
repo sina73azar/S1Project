@@ -25,8 +25,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1c34c9c-9c14-4b2a-b0c1-d754a308b01a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TamrinHa.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AverageFinder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContactFunctional.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fibinatcci.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hesabdari.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/S1Project/META-INF/S1Project.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/S1Project/META-INF/S1Project.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/S1Project/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/S1Project/MainKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,15 +67,54 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Kotlin.PrimeNumsKt">
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.ContactFunctionalKt">
+    <configuration name="ArrayFillKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="S1Project" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <option name="MAIN_CLASS_NAME" value="ArrayFillKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactFunctionalKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="S1Project" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ContactFunctionalKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FibinatcciKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="S1Project" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="FibinatcciKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HesabdariKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="S1Project" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="HesabdariKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,8 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ContactFunctionalKt" />
         <item itemvalue="Kotlin.PrimeNumsKt" />
-        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Kotlin.HesabdariKt" />
+        <item itemvalue="Kotlin.FibinatcciKt" />
+        <item itemvalue="Kotlin.ArrayFillKt" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +175,13 @@
       <option name="presentableId" value="LOCAL‎۰۰۰۰۳" />
       <updated>1603298072520</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL‎۰۰۰۰۴" summary="PrimeNums.kt added">
+      <created>1603313825759</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۴" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۴" />
+      <updated>1603313825760</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,53 +200,54 @@
     <MESSAGE value="conditionStatement Added" />
     <MESSAGE value="22 mehr added" />
     <MESSAGE value="30 Mehr added" />
-    <option name="LAST_COMMIT_MESSAGE" value="30 Mehr added" />
+    <MESSAGE value="PrimeNums.kt added" />
+    <option name="LAST_COMMIT_MESSAGE" value="PrimeNums.kt added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="4" key="#Plugins" timestamp="1602896122971">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="4" key="#Plugins/0.0.1366.728@0.0.1366.728" timestamp="1602896122971" />
-    <state x="310" y="0" key="CommitChangelistDialog2" timestamp="1603298071078">
+    <state x="310" y="0" key="CommitChangelistDialog2" timestamp="1603313824970">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="310" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1603298071078" />
+    <state x="310" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1603313824970" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1603298587138">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1603298587138" />
-    <state width="1323" height="148" key="GridCell.Tab.0.bottom" timestamp="1603313142740">
+    <state width="1323" height="366" key="GridCell.Tab.0.bottom" timestamp="1603806619339">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603313142740" />
-    <state width="1323" height="148" key="GridCell.Tab.0.center" timestamp="1603313142740">
+    <state width="1323" height="366" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603806619339" />
+    <state width="1323" height="366" key="GridCell.Tab.0.center" timestamp="1603806619339">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603313142740" />
-    <state width="1323" height="148" key="GridCell.Tab.0.left" timestamp="1603313142740">
+    <state width="1323" height="366" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603806619339" />
+    <state width="1323" height="366" key="GridCell.Tab.0.left" timestamp="1603806619339">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603313142740" />
-    <state width="1323" height="148" key="GridCell.Tab.0.right" timestamp="1603313142740">
+    <state width="1323" height="366" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603806619339" />
+    <state width="1323" height="366" key="GridCell.Tab.0.right" timestamp="1603806619339">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603313142740" />
-    <state width="1323" height="213" key="GridCell.Tab.1.bottom" timestamp="1603312701625">
+    <state width="1323" height="366" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603806619339" />
+    <state width="1323" height="213" key="GridCell.Tab.1.bottom" timestamp="1603490709222">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="213" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603312701625" />
-    <state width="1323" height="213" key="GridCell.Tab.1.center" timestamp="1603312701624">
+    <state width="1323" height="213" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603490709222" />
+    <state width="1323" height="213" key="GridCell.Tab.1.center" timestamp="1603490709221">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="213" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1603312701624" />
-    <state width="1323" height="213" key="GridCell.Tab.1.left" timestamp="1603312701624">
+    <state width="1323" height="213" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1603490709221" />
+    <state width="1323" height="213" key="GridCell.Tab.1.left" timestamp="1603490709221">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="213" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1603312701624" />
-    <state width="1323" height="213" key="GridCell.Tab.1.right" timestamp="1603312701625">
+    <state width="1323" height="213" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1603490709221" />
+    <state width="1323" height="213" key="GridCell.Tab.1.right" timestamp="1603490709221">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="213" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1603312701625" />
+    <state width="1323" height="213" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1603490709221" />
     <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1603298086536">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -205,6 +260,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="483" y="265" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603298416855" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1603459950237">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1603459950237" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
